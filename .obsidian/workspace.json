@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "cb595010d0778dc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa1efd8cf853254a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f77718e4cbc3ac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80e33a71b2ce0344",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbebf5ef8dec5388",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c73806a73cc4331",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8fe9894826d28975",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5c1c04faeb1c6839",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26f45b609e97ae63",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a1c06c417f342cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f6b908f2a71be5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for (Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism"
+            }
+          },
+          {
+            "id": "404cd52486cc8e72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from (Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism"
+            }
+          },
+          {
+            "id": "ff34e8f2dc42868b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c9ad63df3e2613b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of (Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1f77718e4cbc3ac6",
+  "lastOpenFiles": [
+    "images/response_length.png",
+    "images/grpo.png",
+    "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+    "README.md",
+    "images"
+  ]
+}
