@@ -1,7 +1,7 @@
 It has not been a long time since DeepSeek was released. It was indeed a shock to those who are in AI industry.
-I was not familiar with LLM’s algorithm and the computing resource usage of the LLMs. All I was doing was to deal with the LLM APIs for developers to build pipelines for automation. Other than that, nothing much was to consider.
+I was not familiar with LLM’s algorithm and the computing resource usage of the LLMs. All I was doing was toutilise the LLM APIs for developers to build pipelines for automation. Other than that, nothing much was to consider.
 When DeepSeek stroke the LLM industry, people eagerly talked about the algorithm and how light the model is compared to the other models such as GPT from OpenAI and Llama from Meta.
-I would like to meticulously analyze DeepSeek, especially how it was designed to conserve memory usage and how they used dataset to train the model.
+I would like to meticulously analyze DeepSeek, especially how it was designed to distill with open source models and how they used dataset to train the model.
 
 # Abstract
 In the paper, two reasoning models are introduced: DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero seemed to be a model before supervised fine-tuning, which I think is generally known as a simple fine-tuning with _question-answer_ or _command-return_ pattern training.
@@ -60,18 +60,29 @@ If there is an algorithm, there also should be rewarding methods in order to tra
 - accuracy rewards: it evaluates the response like math problem results or classification results.
     
 - format rewards: it enforces the model to have its reasoning process in the tags like '\<think>\</think>'
+
+
+
+
 ### How Test Was Done
 AIME accuracy: For each question, 16 answers were selected and the overall average accuracy was calculated
 
-### Drawback
 
 
-
+* Reasoning data for SFT, sampling data were collected through reasoning process of DeepSeek-V3 RL checkpoint(model)
 
 # Key Point
 
 DeepSeek-R1-Zero model showed that it actually is autonomous learning. The more learning steps it takes, the more time it takes to response, which means it thinks more before responding.
 ![](./images/response_length.png)
+
+
+DeepSeek-R1-Zero -> DeepSeek-R1 -> DeepSeek-V3(retrain with new data, safe and filtered data)
+
+
+
+# Benchmarks
+
 
 # Limit
 
