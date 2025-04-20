@@ -76,6 +76,8 @@ An intriguing part is the test part. There are many test methods for LLMs perfor
 This was my first LLM paper review. I felt awkward with the concepts of terms used in the paper like checkpoint, RL for LLM, rewards and so on. Quite a challenging moment it had been, and motivating to read the paper.
 It was also thrilling that the model could learn by itself by choosing rewards and taking the right output so it could develop its own universe of tensor.
 Once I had a doubt that the methodology of developing LLMs with vectors and tensors could be wrong and there are other ways to have a better performing models, but then realised that the numbers and floats in tensors are the best efficient way to store and calculate to reflect LLM and maybe it is by the nature meant to be this way. *Number* is the only way for now to express a data from a cell though.
+Still there is a limitation that the model shows its robust part in English and Chinese since the base model was trained mainly with these two languages. The paper mentions that the future work is to add more languages to the model so it is not restricted in only a few languages.
+My personal interest in LLM, if there should be one, is making a sLLM, with low computational resource requirements, faster performance so it could be adopted in any circumstances whether it is on hardwares like embedding or any domains.
 
 # 6. Reference
 [1] DeepSeek-AI, Guo, D., Yang, D., Zhang, H., Song, J., Zhang, R., et al. (2024). DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv preprint arXiv:2501.12948
