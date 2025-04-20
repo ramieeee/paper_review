@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+                "file": "(Paper Review)  DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism"
+              "title": "(Paper Review)  DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
             }
           }
         ]
@@ -167,7 +167,7 @@
   },
   "active": "5dac4313ffd7b57b",
   "lastOpenFiles": [
-    "(Paper Review) DeepSeek LLMScaling Open-Source Language Models with Longtermism.md",
+    "(Paper Review)  DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.md",
     "images/response_length.png",
     "images/grpo.png",
     "README.md",
