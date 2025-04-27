@@ -12,7 +12,7 @@ I had a thorough review on this paper written by Turkish people, and according t
 
 # 1. Introduction
 ### Why Ultrasonic sensor?
-* Low cost compared to LAIDAR
+* Low cost compared to LIDAR
 The most and critical reason for utilizing ultrasonic sensing is because of the cost. Compared to ultrasonic sensor, other sensors are quite heavy in terms of price, LIDAR for example is a great sensor with a stunning visualization and detecting objects around, yet is high in price and individuals have impediments to access to this.
 
 * Useful when optical sensing is not possible
