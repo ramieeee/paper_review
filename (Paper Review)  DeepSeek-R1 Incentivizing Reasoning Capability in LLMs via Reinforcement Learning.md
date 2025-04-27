@@ -44,7 +44,7 @@ Basically, this paper emphasises on the fact that LLM could be optimised and inc
 In chapter 2, DeepSeek team mentions the algorithm, Group Relative Policy Optimisation (GRPO). This algorithm is utilised to train the model by optimising outputs, which consists of new policy and old policy. Also this paper says critic model is forgone. It is the same size as the policy model, which I think is one of the factors that enables the DeepSeek-R1-Zero to be lighter by reducing a significant amount of computational process.
 
 GRPO equation looks as below.
-![](./images/grpo.png)
+![](grpo.png)
 
 The gist of the algorithm is to sample outputs from old policy and calculate possibilities. The ratio of new policy’s output and old policy’s output is then _clipped_ within the range of $1 - \epsilon, 1+\epsilon$
 to prevent from getting too much bias either on the new policy or the old policy.
@@ -55,7 +55,7 @@ There are two reward methods to which the model resort. The model will take the 
 
 # 4. Key Point
 DeepSeek-R1-Zero model showed that it actually is autonomously learning. The more learning steps it takes, the more time it takes to response, which means it thinks more before responding.
-![](./images/response_length.png)
+![](response_length.png)
 
 By its output after GRPO calculation, the model learns itself with knowledge it spits and takes it back to strengthen what it is sure about. It even reaches to the point where there is an "aha" moment, a moment when it realises itself what the knowledge should be or meant to be.
 
